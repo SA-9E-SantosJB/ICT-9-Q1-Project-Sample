@@ -1,0 +1,150 @@
+
+
+body {
+font-family: "times new roman", sans-serif;
+justify-content: center;
+    align-items: center;
+    text-align: center;
+background-color: rgba(255, 255, 255, 0.912);
+}
+
+.navbar {
+  background-color: rgb(21, 32, 66);
+  color:rgb(255, 255, 255);
+  display: flex;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: rgb(210, 223, 253);
+    color: rgb(3, 1, 17);
+    padding: 20px 20px;
+}
+
+.pfp {
+    border-radius: 50%;
+    border: 4px solid rgb(21, 32, 66);
+    background-color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    color: rgb(0, 0, 0);
+}
+
+.hero p {
+    color: rgb(21, 32, 66);
+}
+
+#about {
+    background-color: rgb(21, 32, 66);
+    padding: 20px 20px;
+}
+
+#about {
+    color: rgb(255, 255, 254);
+}
+
+#about p {
+    color: rgba(210, 223, 253);
+}
+
+.my-works {
+    background-color: rgb(210, 223, 253);
+    padding: 20px 20px;
+}
+
+.works-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(210, 223, 253);
+}
+
+.work-item {
+    background-color: rgb(21, 32, 66);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    flex: 1;
+}
+
+.work-item ul {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.work-item li {
+    margin-bottom: 15px;
+}
+
+#contact {
+    background-color: rgb(21, 32, 66);
+    color: white;
+    padding: 40px 20px;
+    
+}
+
+.form-container {
+    max-width: 550px;      
+    margin: 0 auto;        
+    text-align: left;     
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;          
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: inline;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(210, 223, 253);
+    color: rgb(21, 32, 66);
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SA_ICT9E_Q1Project_Santos_Jade Basti</title>
+        <link rel="stylesheet" href="styles_Q1Project.css">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar">
+            <br>
+            <img src="https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png" alt="student logo" class="logo" width="50px" height="50px">
+          <ul class="navlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </br>
+        </ul>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocI3FQlgOCDE3NbLNVJsQn6ZEH9HY_4aRzcEGqJ5rOQWT2Nbt4tN=s192-c-mo" alt="profile picture" class="pfp" width="100px" height="100px">
+        <h1>Hello, I'm Jade Basti M. Santos</h1>
+        <p>I'm an aspring web developer and designer.</p>
+      </section>
+        
+      <section id="about">
+      <h1>About Me</h1>
+        <p>Hi! I'm Jade Basti M. Santos, a student passionate about technology, especially web development and design.</p>
+      </section>
+
+      <section id="my-works" class="my-works">
+        <h1>My Works</h1>
+        <div class="works-gallery">
+
+            <div class="work-item">
+              <h2>Drill #1</h2>
+                <img 
+                    src="SA_ICT9E_Q1Drill1_Screenshot_3.png" alt="work 1" class="work-image" style="border-radius: 10px; border: 2px dashed black; height: 200px;">
+            </div>
+
+            <div class="work-item">
+                 <h2>What I Learned</h2>
+                <ul>
+                     <li><a>Created a basic webpage using HTML.</a></li>
+                     <li><a>Set up the document structure and essential page metadata.</a></li>
+                     <li><a>Added headings and organized content into sections.</a></li>
+                     <li><a>Incorporated images and external links into the webpage.</a></li>
+                     <li><a>Added descriptive text to provide context for the content.</a></li>
+                     <li><a>Used HTML attributes to improve accessibility and functionality.</a></li>
+                </ul>
+            </div>
+            
+        </div> 
+ <div class="works-gallery">
+            <div class="work-item">
+                <h2>Project</h2>
+                <img src="SA_ICT9E_Q1Project_Screenshot.png" alt="work 2" class="work-image" style="border-radius: 10px; border: 2px dashed black; height: 200px;">
+            </div>
+
+            <div class="work-item">
+                <h2>What I Learned</h2>
+                <ul>
+                    <li>Learned how to style a webpage using CSS.</li>
+                    <li>Changed the background and text colors of different sections.</li>
+                    <li>Used classes and IDs to apply specific styles to elements.</li>
+                    <li>Learned how to arrange elements using Flexbox.</li>
+                    <li>Added spacing, borders, padding, and rounded corners to elements.</li>
+                    <li>Improved the overall appearance and organization of a webpage.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+        
+            <ul></ul>
+      </section>
+
+        <section id="contact">
+    <div class="form-container">   
+        <form action="submit_form.php" method="POST">
+            
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required placeholder="jane.doe@example.com">
+            </div>
+
+            <div class="form-group">
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Instagram</label>
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Interested In:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="checkbox1" name="interests" value="web-design">
+                    <label for="checkbox1">Web Design</label>
+
+                    <input type="checkbox" id="checkbox2" name="interests" value="web-development">
+                    <label for="checkbox2">Web Development</label>
+
+                    <input type="checkbox" id="checkbox3" name="interests" value="ui-ux">
+                    <label for="checkbox3">UI/UX Design</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="selection">Rate My Portfolio</label>
+                <select id="selection" name="selection" required>
+                    <option value="">Select a rating</option>
+                    <option value="1">★</option>
+                    <option value="2">★★</option>
+                    <option value="3">★★★</option>
+                    <option value="4">★★★★</option>
+                    <option value="5">★★★★★</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="feedback">Any Feedback?</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Your feedback here..." required></textarea> 
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>© 2026 Basti Santos. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
